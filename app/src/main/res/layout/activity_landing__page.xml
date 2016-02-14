@@ -8,5 +8,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pearlleff.pulse.Landing_Page">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Join Group"
+        android:onClick="activity_choose_party"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#1de9b6"
+        android:capitalize="none"
+        android:enabled="true"
+        android:height="75dp"
+        android:width="150dp"
+        android:focusableInTouchMode="true"
+        android:textAlignment="gravity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pulse"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:enabled="true" />
 
 </RelativeLayout>
