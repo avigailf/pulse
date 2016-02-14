@@ -12,16 +12,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text = "Join Group"
-        android:onClick="activity_choose_party"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:background="#1de9b6"
         android:capitalize="none"
         android:enabled="true"
         android:height="75dp"
         android:width="150dp"
         android:focusableInTouchMode="true"
-        android:textAlignment="gravity"/>
+        android:textAlignment="gravity"
+        android:id="@+id/btnJoin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -34,8 +35,26 @@
         android:layout_marginTop="46dp"
         android:textStyle="bold"
         android:typeface="sans"
-        android:textSize="18dp"
+        android:textSize="30dp"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
         android:enabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Group"
+        android:onClick="activity_choose_party"
+        android:background="#1de9b6"
+        android:capitalize="none"
+        android:enabled="true"
+        android:height="75dp"
+        android:width="150dp"
+        android:focusableInTouchMode="true"
+        android:textAlignment="gravity"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
 
 </RelativeLayout>

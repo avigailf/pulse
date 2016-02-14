@@ -15,12 +15,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        android:
+
         <activity android:name=".Landing_Page" />
         <activity
             android:name=".ChooseGroup"
             android:label="@string/title_activity_choose_party"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Landing_Page"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Landing_Page" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
